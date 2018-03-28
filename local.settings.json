@@ -1,0 +1,20 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=mqconnector1114;AccountKey=fLg193+35eqqR+7zYRyictsz0mSlln666Q8GWgUwYafaL3uS7f+onTZX0yD14AwKGeqiElRW1eaqBS3L0fs7Og==",
+    "WEBSITE_SLOT_NAME": "Production",
+    "FUNCTIONS_EXTENSION_VERSION": "~1",
+    "ScmType": "LocalGit",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "FUNCTION_APP_EDIT_MODE": "readwrite",
+    "IoTHubDevicePolicyKey": "QPmvoYl2oWH7oQsa8M2WJSRixBYXEcBMYLBVqV8TXK8=",
+    "configurationApi": "https://mqconnector.azurewebsites.net/api/device-configuration?code=F6uybjaCG8Ba/5glJm1nHKBrAGJtcT2Z1M1PdhCYdO71D/5irPcg8Q==",
+    "diaz-rmpcse6bc8_DOCUMENTDB": "AccountEndpoint=https://diaz-rmpcse6bc8.documents.azure.com:443/;AccountKey=RYCtVuC1jHueK8ATgFCCPzRmqWBWc3hJcOPhdNc9yLjSI2eAIuHHYgvWEYRVea7l7ZuepAlhmmUDh2cnlWz2uA==;",
+    "WEBSITE_NODE_DEFAULT_VERSION": "6.5.0",
+    "IoTHubHost": "mqconnector.azure-devices.net",
+    "mqconnect_receiver_EVENTHUB": "Endpoint=sb://mqconnect.servicebus.windows.net/;SharedAccessKeyName=receiver;SharedAccessKey=wemHq/om6qPUV6AmYHL9nLAua4EQMi9mVkl9m96uCkc=;EntityPath=telemetry",
+    "WEBSITE_SITE_NAME": "mqconnector",
+    "IoTHubDevicePolicyName": "device",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=mqconnector1114;AccountKey=fLg193+35eqqR+7zYRyictsz0mSlln666Q8GWgUwYafaL3uS7f+onTZX0yD14AwKGeqiElRW1eaqBS3L0fs7Og=="
+  }
+}
