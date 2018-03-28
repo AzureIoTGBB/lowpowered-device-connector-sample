@@ -15,3 +15,11 @@ The first decision we had to make was where to host the bridge. The first option
 I broke down the functionality into multiple Azure Function to make it easily extensible. The idea is that you could have different device types on the bridge and therefore might need separate a decoder, twin, message format, etc. 
 
 >Note: I used nodejs and the async package in this sample but looking back I should have gone with Azure Durable Functions as it was designed for this type of "pipeline" scenarios.
+
+Decoder - In many LNP system the payload is encoded and at times encrypted. The idea of the decoder is to allow for the message to be decoded and or decrypted before sending it to IoT Hub. Another option is to decode the message after it gets to IoT Hub and use the routing feature to route the message to the proper decoder. However, this approach limits some possible scenarios, like using the remote monitoring pre-configured solutions as it expects a "ready to consume" message.
+
+Twin - Some applications require the device twin to be available. While I am not implementing it in this sample, I left the hook in to show the possibilities
+
+Message Format - I added this at the last minute because I wanted to demo this solution with the pre-configured solution which requires the message to be of a particular format with a get of message properties.
+
+>Note: The message formatter function is currently implemented outside of the "async flow". I will go back and fix this at a later time.
